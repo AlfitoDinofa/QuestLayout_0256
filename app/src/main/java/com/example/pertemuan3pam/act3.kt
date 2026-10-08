@@ -49,3 +49,10 @@ fun ActivitasPertama(modifier: Modifier, fillMaxsize: Modifier.() -> Modifier){
                 containerColor = Color.DarkGray
             )
         ) {
+            Row() {
+                val gambar = painterResource(id = R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(100.dp).padding(all = 5.dp)
+                )
