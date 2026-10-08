@@ -31,3 +31,11 @@ fun ActivitasPertama(modifier: Modifier, fillMaxsize: Modifier.() -> Modifier){
             .fillMaxsize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            stringResource(id = R.string.prodi),
+            fontSize = 35.sp,
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            stringResource(id = R.string.univ),
+            fontSize = 22.sp
